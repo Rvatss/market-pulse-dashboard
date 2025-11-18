@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+📈 StockXchange – Modern Stock Market Dashboard
 
-## Project info
+A sleek, dark-themed stock market frontend UI built for real-time tracking, analytics, and smarter investing.
 
-**URL**: https://lovable.dev/projects/7b43ad93-82fb-448e-bb3d-f9a0b5942c92
+This project provides a professional, fast, and intuitive interface where users can search stocks, view detailed metrics, analyze trends, and manage a personalized watchlist—all designed with a premium, modern touch.
 
-## How can I edit this code?
+🚀 Features
+Landing Page
 
-There are several ways of editing your application.
+✨ Clean hero section with the tagline “Trade Smarter, Invest Better”
 
-**Use Lovable**
+🔍 Quick actions: View Dashboard and Search Stocks
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7b43ad93-82fb-448e-bb3d-f9a0b5942c92) and start prompting.
+📊 Highlights real-time insights and seamless stock tracking
 
-Changes made via Lovable will be committed automatically to this repo.
+Features Section
 
-**Use your preferred IDE**
+Six interactive feature cards:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Real-Time Search – Live stock lookup with detailed analytics
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Market Dashboard – Trending stocks, top gainers, and losers
 
-Follow these steps:
+Price Charts – Interactive, zoomable charts with historical trends
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Quick Watchlist – Save and monitor your favorite stocks
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Secure & Fast – Optimized performance with safe API handling
 
-# Step 3: Install the necessary dependencies.
-npm i
+Always Available – Accessible 24/7 from any device
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Trending Stocks Page
 
-**Edit a file directly in GitHub**
+Displays top trending stocks with:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Current price
 
-**Use GitHub Codespaces**
+Change %
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+High / Low values
 
-## What technologies are used for this project?
+Market cap
 
-This project is built with:
+Tabs for Trending, Gainers, Losers
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Market Dashboard Section
 
-## How can I deploy this project?
+Overview of multiple stock cards
 
-Simply open [Lovable](https://lovable.dev/projects/7b43ad93-82fb-448e-bb3d-f9a0b5942c92) and click on Share -> Publish.
+Clean grid layout
 
-## Can I connect a custom domain to my Lovable project?
+Future-ready for charts & analytics panels
 
-Yes, you can!
+🛠️ Tech Stack (Frontend)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+HTML5
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+CSS3 / TailwindCSS (or standard CSS depending on your build)
+
+JavaScript (Vanilla or Framework-ready)
+
+Fully responsive layout
+
+Modern dark-mode UI design principles
+
+📁 Folder Structure (Suggested)
+/stockxchange-frontend
+│── /public
+│   └── assets/
+│── /src
+│   ├── index.html
+│   ├── styles.css
+│   ├── app.js
+│   ├── components/
+│   └── pages/
+│── README.md
+
+🔧 Installation & Setup
+
+1️⃣ Clone the repository
+
+git clone https://github.com/yourusername/stockxchange-frontend.git
+
+
+2️⃣ Open the project
+
+cd stockxchange-frontend
+
+
+3️⃣ Run using Live Server
+(Recommended for a smooth SPA experience)
+
+4️⃣ Customize API Integration
+Inside app.js, plug your backend or stock market API (AlphaVantage, Finnhub, Yahoo Finance, etc.).
+
+📌 Future Enhancements
+
+⚙ Live stock chart integration (Chart.js / Recharts)
+
+🌐 Multi-language support
+
+📱 Mobile-first improved interactions
+
+👤 User login + personalized watchlists
+
+🔐 Secure backend with authentication
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue to discuss enhancements first.
+
+📜 License
+
+MIT License © 2025 — StockXchange UI Team
